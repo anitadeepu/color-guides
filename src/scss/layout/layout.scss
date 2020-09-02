@@ -1,0 +1,27 @@
+.cont
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+    @include md{
+        display:flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    @include sm{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.cont-1{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
